@@ -1,0 +1,11 @@
+[Unit]
+Description=StreamPi
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python -u /opt/streampi/streampi.py /opt/streampi/config.json
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
