@@ -1,8 +1,9 @@
 {
-	"use-webcam": false,
-	"stream-url": "rtsp://CAM STREAM URL",
+	"encoder": "ffmpeg",
+	"cam-type": "webcam",
 	"webcam-dev": "video0",
 	"webcam-framerate": "10",
 	"webcam-resolution": "640x480",
+	"networkcam-url": "rtsp://CAM STREAM URL",
 	"destination-url": "rtmp://SERVER URL"
 }
