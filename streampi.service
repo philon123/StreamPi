@@ -3,7 +3,7 @@ Description=StreamPi
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/python -u /opt/StreamPi/streampi.py /opt/StreamPi/config.json
+ExecStart=/usr/bin/python3 -u /opt/StreamPi/streampi.py /opt/StreamPi/config.json 2>&1
 Restart=always
 RestartSec=5
 
